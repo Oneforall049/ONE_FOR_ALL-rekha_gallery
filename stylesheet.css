@@ -1,0 +1,178 @@
+header{
+  background-color: rgb(8, 8, 8);
+  color: gold;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+      
+}
+
+.logo{
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family:'him';
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li{
+  margin: 0 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+}
+
+nav ul li a:hover {
+  background-color: brown;
+  border-radius: 10cap;
+  transform: scale(2);
+  -webkit-font-smoothing: antialiased;
+}
+
+.trick {
+  list-style: none;
+  font-family:Merriweather;
+  margin: 0;
+  padding: 0;
+}
+
+.trick li {
+  float:left;
+  height:40px;
+  width:300px;
+  background-color:black;
+  opacity:.9;
+  line-height:40px;
+  text-align:center;
+  font-size:40px;
+}
+ul li a{
+text-decoration:none;
+color:white;
+display:block;
+}
+ul li a:hover{
+background-color:brown;
+}
+ul li ul li{
+display:none;
+}
+ul li:hover ul li{
+display:block;
+}
+
+ body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+  div.scroll-container {
+    background-color:black;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    border:double;
+    border-color:bisque;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    
+  }
+  .box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+
+   animation-name:myframes ;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   animation-delay: 0s;
+   animation-direction: forwards;
+   animation-play-state:running;
+   }
+
+   div.gallery {
+    border: 1px solid rgb(17, 17, 17);
+  }
+  
+  div.gallery:hover {
+    border: 1px solid purple;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .gallery {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .wrap_video_item{
+    width: 80%;
+    height: auto;
+    align-content: left;
+  }
+  video{
+    width: 100%;
+    height:auto;
+    position: left;
+  }
+  .video_item:hover{
+    position: relative;
+    transform: scale(1.5);
+    z-index: 1;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+    box-shadow: 0 0 20px rgba(22, 22, 22, 0.5);
+  }
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
