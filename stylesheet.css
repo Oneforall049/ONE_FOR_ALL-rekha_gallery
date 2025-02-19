@@ -45,38 +45,6 @@ nav ul li a:hover {
   -webkit-font-smoothing: antialiased;
 }
 
-.trick {
-  list-style: none;
-  font-family:Merriweather;
-  margin: 0;
-  padding: 0;
-}
-
-.trick li {
-  float:left;
-  height:40px;
-  width:300px;
-  background-color:black;
-  opacity:.9;
-  line-height:40px;
-  text-align:center;
-  font-size:40px;
-}
-ul li a{
-text-decoration:none;
-color:white;
-display:block;
-}
-ul li a:hover{
-background-color:brown;
-}
-ul li ul li{
-display:none;
-}
-ul li:hover ul li{
-display:block;
-}
-
  body{
   background-color: black;
   margin: 0;
@@ -117,7 +85,7 @@ display:block;
   }
   
   div.gallery:hover {
-    border: 1px solid brown;
+    border: 1px solid purple;
   }
   
   div.gallery img {
@@ -128,16 +96,11 @@ display:block;
   div.desc {
     padding: 15px;
     text-align: center;
-    color: white;
+    color: rgb(15, 15, 15);
   }
   
   * {
     box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: Arial;
   }
   
   .gallery {
@@ -164,16 +127,6 @@ display:block;
     transition-duration: .5s;
     transition-timing-function: ease-out;
     box-shadow: 0 0 20px rgba(22, 22, 22, 0.5);
-  }
-  h2 {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-  }
-  h3{
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
   }
   
   .footer {
