@@ -39,7 +39,7 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-  background-color: brown;
+  background-color: #ff914d;
   border-radius: 10cap;
   transform: scale(2);
   -webkit-font-smoothing: antialiased;
@@ -117,7 +117,7 @@ display:block;
   }
   
   div.gallery:hover {
-    border: 1px solid purple;
+    border: 1px solid brown;
   }
   
   div.gallery img {
@@ -176,3 +176,26 @@ display:block;
     font-weight: bold;
   }
   
+  .footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    top: 600px
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #ff914d;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
